@@ -10,8 +10,7 @@
 		
 	<div class="cartao"><p><a href="arrays.php">Arrays</a></p></div>
 
-	<div class="cartao"><p><a href="operadores.php">Operadores</a></p></div>
-
+	<div class="cartao"><p><a href="json.php">JSON</a></p></div>
 	</div>
 </body>
 </html>
