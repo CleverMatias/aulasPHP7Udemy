@@ -21,12 +21,12 @@
 		'idade'	=> 12
 	));
 
-	// transformando os dados em json
+	// transformando os dados em json (json_enconde)
 
 	echo json_encode($pessoas) . '<br><br>';
 	//[{"nome":"Cleverson Matias","idade":34},{"nome":"Eduardo Detoni","idade":12}]
 
-	//  transformando json em array
+	//  transformando json em array (json_decode)
 	$json = '[{"nome":"Cleverson Matias","idade":34},{"nome":"Eduardo Detoni","idade":12}]';
 
 	print_r (json_decode($json));
