@@ -13,9 +13,14 @@
 		print_r($carros);
 
 		// Arrays multidimencionais 
-		$pessoas = array();
+		
+		$multi = array(array(
+				'nome' => 'cleverson',
+				'idade' => 34
+			));
 
 		// Inserir dados em array multidimecionais
+		$pessoas = array();
 		array_push($pessoas, array(
 				'nome'      => 'Cleverson',
 				'sobrenome' => 'Matias',
