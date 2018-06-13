@@ -14,6 +14,8 @@
 
 	<div class="cartao"><p><a href="constantes.php">Constantes</a></p></div>
 
+	<div class="cartao"><p><a href="sessao.php">Sessão</a></p></div>
+
 	</div>
 </body>
 </html>
