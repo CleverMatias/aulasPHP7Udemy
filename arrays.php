@@ -34,7 +34,9 @@
 				'sexo'		=> 'F',
 				'Profissão'	=> 'Vendedora'
 			));
-		print_r($pessoas)
+		print_r($pessoas);
+
+
 	 ?>
 </pre></body>
 </html>
