@@ -10,7 +10,6 @@ function validaCpf($cpf)
     $cpf = str_pad($cpf, 11, '0', STR_PAD_LEFT);
 
     if (strlen($cpf) != 11) {
-        echo "CPF INVÁLIDO!";
         return false;
     } else if ($cpf == '00000000000' ||
         $cpf == '11111111111' ||
@@ -41,3 +40,8 @@ function validaCpf($cpf)
     }
 
 }
+
+// validando o cpf do formulário em valida_cpf.php
+$doc = $_POST['cpf'] ?? '';
+
+$confirm = validaCpf($doc);

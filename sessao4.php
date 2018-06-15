@@ -1,9 +1,8 @@
 <?php
-session_id('dtu3oiuj9pka8gh5l94or3ne83');
-//
+
 require_once 'config.php';
 
-session_regenerate_id();
+//session_regenerate_id(); // gera um novo id da sessão
 
 echo session_id();
 

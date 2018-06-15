@@ -16,6 +16,8 @@
 
 	<div class="cartao"><p><a href="sessao.php">Sessão</a></p></div>
 
+	<div class="cartao"><p><a href="valida_cpf.php">Validar cpf</a></p></div>
+
 	</div>
 </body>
 </html>

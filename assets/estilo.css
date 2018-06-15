@@ -44,3 +44,12 @@ a{
 .cartao:hover {
   box-shadow: 0 7px 19px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
+
+
+/*formulário valida_cpf.php*/
+#wrapper{
+	margin: 0 auto;
+	padding: 0;
+	width: 80%
+	height: 400px;
+}
